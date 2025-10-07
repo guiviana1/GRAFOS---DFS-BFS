@@ -12,4 +12,4 @@ Luiz Guilherme Carvalho Viana
 
 Para compilar o arquivo bfs.cpp: g++ bfs.cpp -std=c++17 -lboost_graph -lboost_regex && ./a.out
 
-Para compilar o arquivo dfs.cpp: ---
+Para compilar o arquivo dfs.cpp: g++ dfs.cpp -std=c++17 -lboost_graph -lboost_regex && ./a.out
