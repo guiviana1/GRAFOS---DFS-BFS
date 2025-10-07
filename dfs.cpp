@@ -29,9 +29,6 @@ int main() {
     std::cout << "Insira o nome do arquivo a ser lido: ";
     std::cin >> caminho;
 
-    bool whatsearch = 0;
-    //0 para dfs, 1 para bfs
-
     std::ifstream in(caminho);
     if (!in) { std::cerr << caminho << " não existe\n"; return 1; }
 
@@ -39,8 +36,6 @@ int main() {
 
     in.clear();
     in.seekg(0);
-
-    if (!whatsearch) { //AQUI SERÁ IMPLEMENTADA A DFS DE LUTERCIO -----------------------------------------------------------------------------------------------------------
 
         if (directed) {
             DG g;
@@ -183,13 +178,5 @@ int main() {
                         << " d=" << tin[index[v]] << " f=" << tout[index[v]] << "\n";
             }
         }
-    } else { // AQUI SERÁ IMPLEMENTADA A BFS DE GUIGOLA-----------------------------------------------------------------------------------------------------------
-
-        
-
-
-    }
-
-
 
 }

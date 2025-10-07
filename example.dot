@@ -1,0 +1,22 @@
+digraph G {
+  A; B; C; D; E; F; G; H; X; Y; Z;
+
+  A -> B;
+  A -> C;
+  B -> A;
+  B -> D;
+  C -> D;
+  C -> E;
+  D -> D;   
+  D -> F;
+  E -> B;
+  E -> G;
+  F -> H;
+  G -> D;
+  H -> C;
+
+  Z -> Z;   
+
+  X -> Y;   
+  Y -> X;
+}

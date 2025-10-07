@@ -1,6 +1,6 @@
 # Descrição do Projeto
 
-Implementação de algoritmos de busca por Profundidade (DFS) e Largura (BFS) em grafos interpretados à partir de arquivos '.dot'.
+Implementação de algoritmos de Busca por Profundidade (DFS) e Busca por Largura (BFS) em grafos interpretados à partir de arquivos '.dot'.
 
 # Integrantes do Projeto
 
@@ -10,4 +10,6 @@ Luiz Guilherme Carvalho Viana
 
 # Compilação do Projeto
 
-abc
+Para compilar o arquivo bfs.cpp: g++ bfs.cpp -std=c++17 -lboost_graph -lboost_regex && ./a.out
+
+Para compilar o arquivo dfs.cpp: ---
